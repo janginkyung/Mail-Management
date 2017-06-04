@@ -15,7 +15,7 @@ using namespace std;
 
 
 #include "MyFolder.h"
-#include "hQueue.h"
+#include "HQueue.h"
 #include "Sorted_List.h"
 #include "DoublySortedLinkedList.h"
 #include "Mail.h"
@@ -391,7 +391,7 @@ public:
 private:
 
 
-	hQueue<QltemType> m_hqueue;	//최근사용한 주소를 저장할 변수 
+	HQueue<QltemType> m_hqueue;	//최근사용한 주소를 저장할 변수 
 	BinarySearchTree<QltemType> contactlist;//주소록에서 저장할 변수 
 
 	int m_Command;			///< current command number.
